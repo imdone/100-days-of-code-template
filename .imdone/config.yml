@@ -16,7 +16,7 @@ code:
 lists:
   - hidden: false
     name: NOTE
-  - hidden: true
+  - hidden: false
     name: TODO
   - hidden: false
     name: DOING
@@ -25,7 +25,11 @@ lists:
 settings:
   appendNewCardsTo: log.md
   cards:
-    colors: []
+    colors:
+      - color: red
+        filter: list=DOING
+      - color: green
+        filter: list=NOTE
   journalPath: /notes
   maxLines: 10
   taskPrefix: "###"
