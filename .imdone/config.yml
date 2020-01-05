@@ -1,0 +1,31 @@
+keepEmptyPriority: false
+code:
+  include_lists:
+    - TODO
+    - DOING
+    - DONE
+    - PLANNING
+    - FIXME
+    - ARCHIVE
+    - HACK
+    - CHANGED
+    - XXX
+    - IDEA
+    - NOTE
+    - REVIEW
+lists:
+  - hidden: false
+    name: NOTE
+  - hidden: true
+    name: TODO
+  - hidden: false
+    name: DOING
+  - hidden: false
+    name: DONE
+settings:
+  appendNewCardsTo: log.md
+  cards:
+    colors: []
+  journalPath: /notes
+  maxLines: 10
+  taskPrefix: "###"
