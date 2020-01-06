@@ -21,6 +21,7 @@ lists:
   - hidden: false
     name: DOING
   - hidden: false
+    ignore: true
     name: DONE
 settings:
   appendNewCardsTo: log.md

@@ -6,13 +6,13 @@ tags:
 
 ## #TODO:0 # :100: Days of code with imdone!
 - [ ] Drag this card to **DOING**
-- [ ] Set your `startDate` in [log.md on line 6](/log.md:6) (It's just [yaml](https://yaml.org))
-  - Click the "**log.md on line 6**" link above to open your log at line 6.
+- [ ] Set your `startDate` in [log.md on line 5](/log.md:5) (It's just [yaml](https://yaml.org))
+  - Click the "**log.md on line 5**" link above to open your log.md at line 5.
   - Replace the date with your start date
 <!-- -->
 If the top card in the **NOTE** list now reads "**...Day 1...**", drag this card to **DONE**.
 
-## #TODO:10 # Create a progress card
+## #TODO:10 # Create a log entry card
 - Click the "Add a card" button at the bottom of this list
 - Fill it out with brief progress, thoughts and links.
 
@@ -58,12 +58,9 @@ I recommend that you commit to no more than 2-3 challenges at a time, ideally 2.
 * If you like this repo and find it useful, please consider &#9733; starring it (on top right of the page) and forking it :)
 
 <!--
-#NOTE:0 # Keyboard shortcuts expand:1
+#NOTE:10 # Keyboard shortcuts
 | Action                        | Shortcut                                |
 |-------------------------------|-----------------------------------------|
-| Open Journal                  | cmd+shift+j or ctrl+shift+j (Global)    |
-| Cycle through tabs            | ctrl+tab                                |
-| Add a board                   | cmd+n or ctrl+n                         |
 | Navigate Selected Card        | :arrow_up: :arrow_down: :arrow_left: :arrow_right:|
 | Move Selected Card Up         | shift+:arrow_up:                        |
 | Move Selected Card Down       | shift+:arrow_down:                      |
@@ -76,10 +73,13 @@ I recommend that you commit to no more than 2-3 challenges at a time, ideally 2.
 | Delete Selected Card          | delete or backspace                     |
 | Add a Card                    | space                                   |
 | Save Card Edits               | cmd+s or ctrl+s                         |
+| Filter                        | cmd+f or ctrl+f                         |
+| Clear Filter                  | esc                                     |
+| Open Journal                  | cmd+shift+j or ctrl+shift+j (Global)    |
+| Cycle through tabs            | ctrl+tab                                |
+| Add a board                   | cmd+n or ctrl+n                         |
 | Zoom in                       | cmd+shift+[+]                           |
 | Zoom out                      | cmd+[-]                                 |
 | Zoom reset                    | cmd+0                                   |
-| Filter                        | cmd+f or ctrl+f                         |
-| Clear Filter                  | esc                                     |
 
 -->
