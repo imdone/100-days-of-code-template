@@ -3,8 +3,15 @@ tags:
   - getting-started
 ---
 # I've joined the #100DaysOfCode Challenge
+## 100-days-of-code template
+This template is configured to write all cards created in imdone to [log.md](log.md).  You can easily create log entries as cards on your board.  Each card will be pre-populated with the template defined in log.md front-matter.
 
-## #TODO:0 # :100: Days of code with imdone!
+Read the comments in [log.md](log.md) to learn how the template works.
+
+The cards in the next section are meant to walk the user through the process of using the board.
+
+## Imdone cards
+### #TODO:0 # :100: Days of code with imdone!
 - [ ] Drag this card to **DOING**
 - [ ] Set your `startDate` in [log.md on line 5](/log.md:5) (It's just [yaml](https://yaml.org))
   - Click the "**log.md on line 5**" link above to open your log.md at line 5.
@@ -12,13 +19,14 @@ tags:
 <!-- -->
 If the top card in the **NOTE** list now reads "**...Day 1...**", drag this card to **DONE**.
 
-## #TODO:10 # Create a log entry card
+### #TODO:10 # Create a log entry card
 - Click the "Add a card" button at the bottom of this list
 - Fill it out with brief progress, thoughts and links.
 
-## #TODO:20 # Tweet your progress
+### #TODO:20 # Tweet your progress
 - Click the tweet link that appears in your new card as you hover over it
 
+----
 ## [Kallaway/100-days-of-code Contents](https://github.com/Kallaway/100-days-of-code)
 
 * [Rules](rules.md)
