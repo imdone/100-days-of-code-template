@@ -31,6 +31,10 @@ links: # These are links that can be added to cards.  Notice how href is using a
 #NOTE:0 # :100: Days of code: Day ${daysIn} expand:1
 **Days to go: ${daysToGo}**
 **Started on: ${startDay}**
+- [Rules](rules.md)
+- [Log - click here to see my progress](log.md)
+- [FAQ](FAQ.md)
+- [Resources](resources.md)
 - [#100DaysOfCode Official Website](https://www.100daysofcode.com/)
 - [#100DaysOfCode on Twitter](https://twitter.com/search?q=%23100DaysOfCode)
 - [Edit My 100 Days of Code log](log.md:0:1)

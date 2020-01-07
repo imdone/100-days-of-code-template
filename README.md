@@ -26,6 +26,12 @@ If the top card in the **NOTE** list now reads "**...Day 1...**", drag this card
 ### #TODO:20 # Tweet your progress
 - Click the tweet link that appears in your new card as you hover over it
 
+### #TODO:30 # Customize your imdone template
+- [ ] Read the [README.md](README.md) file.
+- [ ] Read the front-matter comments in [log.md](log.md)
+- [ ] Examine the [.imdone/config.yml](.imdone/config.yml) file.
+  - This is where your board settings are saved.
+
 ----
 ## [Kallaway/100-days-of-code Contents](https://github.com/Kallaway/100-days-of-code)
 
