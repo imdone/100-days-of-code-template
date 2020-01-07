@@ -9,15 +9,11 @@ computed: # These are computed variables that can be referenced in cards and tem
   startDay: (new Date('${startDate}')).toDateString()
   today: (new Date()).toDateString()
   now: (new Date()).getTime()
-template: > # This is the template for new cards
+template: | # This is the template for new cards
   # :100: Days of code, Day ${daysIn}: ${today}
-  
   :rocket: **Progress:**  your progress here
-  
   :thought_balloon: **Thoughts:**  your thoughts here
-
   :link: **Links to work:**  your links here
-
   #100DaysOfCode
 links: # These are links that can be added to cards.  Notice how href is using a built in variable "encodedText"
   - pack: fab # Can be fab or fas https://fontawesome.com/how-to-use/on-the-web/referencing-icons/basic-use
