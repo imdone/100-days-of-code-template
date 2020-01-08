@@ -33,4 +33,5 @@ settings:
         filter: list=NOTE
   journalPath: /notes
   maxLines: 10
+  newCardSyntax: MARKDOWN
   taskPrefix: "###"
