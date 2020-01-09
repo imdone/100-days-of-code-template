@@ -35,3 +35,5 @@ settings:
   maxLines: 10
   newCardSyntax: MARKDOWN
   taskPrefix: "###"
+sync:
+  useImdoneioForPriority: false

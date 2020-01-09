@@ -19,7 +19,7 @@ The cards in the next section are meant to walk the user through the process of 
 <!-- -->
 If the top card in the **NOTE** list now reads "**...Day 1...**", drag this card to **DONE**.
 
-### [# Create a log entry card](#TODO:10 )
+### [# Create a log entry card](#TODO:10)
 - Click the "Add a card" button at the bottom of this list
 - Fill it out with brief progress, thoughts and links.
 
