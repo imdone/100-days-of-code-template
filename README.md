@@ -1,14 +1,19 @@
 ---
 tags:
   - getting-started
+links: 
+  - pack: fab # Can be fab or fas https://fontawesome.com/how-to-use/on-the-web/referencing-icons/basic-use
+    icon: twitter # The font-awesome icon to use 
+    title: Tweet this card # What the user see's when they hover over the icon
+    href: https://twitter.com/intent/tweet?text=${encodedText}%0ATweeted%20with%20@imdoneio
 ---
 # I've joined the #100DaysOfCode Challenge
-## 100-days-of-code template
-This template is configured to write all cards created in imdone to [log.md](log.md).  You can easily create log entries as cards on your board.  Each card will be pre-populated with the template defined in log.md front-matter.
+## 100-days-of-code - [Imdone](https://imdone.io) template
+This board is configured to write all cards created in [imdone](https://imdone.io) to [log.md](log.md).  You can easily create log entries as cards on your board.  Each card will be pre-populated with the template defined in log.md front-matter.
 
 Read the comments in [log.md](log.md) to learn how the template works.
 
-The cards in the next section are meant to walk the user through the process of using the board.
+The cards in the next section will walk you through how to use this board.
 
 ## Imdone cards
 ### [# :100: Days of code with imdone!](#TODO:0)
@@ -33,7 +38,7 @@ If the top card in the **NOTE** list now reads "**...Day 1...**", drag this card
   - This is where your board settings are saved.
 
 ----
-## [Kallaway/100-days-of-code Contents](https://github.com/Kallaway/100-days-of-code)
+## [Kallaway/100-days-of-code](https://github.com/Kallaway/100-days-of-code) README.md Contents
 
 * [Rules](rules.md)
 * [Log - click here to see my progress](log.md)
@@ -72,7 +77,7 @@ I recommend that you commit to no more than 2-3 challenges at a time, ideally 2.
 * If you like this repo and find it useful, please consider &#9733; starring it (on top right of the page) and forking it :)
 
 <!--
-#NOTE:10 # Keyboard shortcuts
+#NOTE:10 # Keyboard shortcuts expand:1
 | Action                        | Shortcut                                |
 |-------------------------------|-----------------------------------------|
 | Navigate Selected Card        | :arrow_up: :arrow_down: :arrow_left: :arrow_right:|
@@ -92,6 +97,7 @@ I recommend that you commit to no more than 2-3 challenges at a time, ideally 2.
 | Open Journal                  | cmd+shift+j or ctrl+shift+j (Global)    |
 | Cycle through tabs            | ctrl+tab                                |
 | Add a board                   | cmd+n or ctrl+n                         |
+| Board Settings                | cmd+/ or ctrl+/                         |
 | Zoom in                       | cmd+shift+[+]                           |
 | Zoom out                      | cmd+[-]                                 |
 | Zoom reset                    | cmd+0                                   |

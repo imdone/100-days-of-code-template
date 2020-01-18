@@ -1,7 +1,7 @@
 ---
-tags:
+tags: # These tags will be added to all cards
   - 100-days-log
-props: # These are static variables that can be referenced in cards and templates
+props: # These are static variables that can be referenced in cards and templates.
   startDate: 1-5-2020
 computed: # These are computed variables that can be referenced in cards and templates
   daysIn: Math.ceil(((new Date()).getTime() - (new Date('${startDate}')).getTime()) / (1000 * 3600 * 24))
@@ -15,16 +15,18 @@ template: | # This is the template for new cards
   :thought_balloon: **Thoughts:**  your thoughts here
   :link: **Links to work:**  your links here
   #100DaysOfCode
-links: # These are links that can be added to cards.  Notice how href is using a built in variable "encodedText"
+links: # These are links that will be added to cards.  Notice how href is using a built in variable "encodedText"
+  # All props and computed are available for href formatting
+  # default props include "encodedText", "encodedMD" and the task object itself 
   - pack: fab # Can be fab or fas https://fontawesome.com/how-to-use/on-the-web/referencing-icons/basic-use
     icon: twitter # The font-awesome icon to use 
-    title: Tweet this card
+    title: Tweet this card # What the user see's when they hover over the icon
     href: https://twitter.com/intent/tweet?text=${encodedText}%0ATweeted%20with%20@imdoneio
 ---
 
 # 100 Days Of Code - Log
 <!-- 
-#NOTE:0 # :100: Days of code: Day ${daysIn} expand:1
+#NOTE:0 # :100: Days of code: Day ${daysIn} expand:1 refresh:300000
 **Days to go: ${daysToGo}**
 **Started on: ${startDay}**
 - [Rules](rules.md)

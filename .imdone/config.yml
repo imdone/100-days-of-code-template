@@ -34,6 +34,6 @@ settings:
   journalPath: /notes
   maxLines: 10
   newCardSyntax: MARKDOWN
-  taskPrefix: "###"
+  taskPrefix: '###'
 sync:
   useImdoneioForPriority: false
