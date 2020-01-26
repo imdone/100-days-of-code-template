@@ -31,6 +31,7 @@ settings:
         filter: list=DOING
       - color: green
         filter: list=NOTE
+  filteredLists: []
   journalPath: /notes
   maxLines: 10
   newCardSyntax: MARKDOWN
