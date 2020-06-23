@@ -3,7 +3,7 @@ tags:
   - getting-started
 links: 
   - pack: fab # Can be fab or fas https://fontawesome.com/how-to-use/on-the-web/referencing-icons/basic-use
-    icon: twitter # The font-awesome icon to use 
+    icon: fa-twitter # The font-awesome icon to use 
     title: Tweet this card # What the user see's when they hover over the icon
     href: https://twitter.com/intent/tweet?text=${encodedText}%0ATweeted%20with%20@imdoneio
 ---
