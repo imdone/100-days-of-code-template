@@ -4,17 +4,19 @@ tags: # These tags will be added to all cards
 props: # These are static variables that can be referenced in cards and templates.
   startDate: 1-5-2020
 computed: # These are computed variables that can be referenced in cards and templates
-  daysIn: Math.ceil(((new Date()).getTime() - (new Date('${startDate}')).getTime()) / (1000 * 3600 * 24))
-  daysToGo: 100 - Number(${daysIn})
-  startDay: (new Date('${startDate}')).toDateString()
-  today: (new Date()).toDateString()
-  now: (new Date()).getTime()
+  daysIn: ${Math.ceil(((new Date()).getTime() - (new Date(startDate)).getTime()) / (1000 * 3600 * 24))}
+  daysToGo: ${100 - Number(daysIn)}
+  startDay: ${(new Date(startDate)).toDateString()}
+  today: ${(new Date()).toDateString()}
+  now: ${(new Date()).getTime()}
+  timestamp: ${(new Date()).toISOString()}
 template: | # This is the template for new cards
   :100: Days of code, Day ${daysIn}: ${today}
   :rocket: **Progress:**  your progress here
   :thought_balloon: **Thoughts:**  your thoughts here
   :link: **Links to work:**  your links here
   #100DaysOfCode
+  <!-- created: ${timestamp} -->
 links: # These are links that will be added to cards.  Notice how href is using a built in variable "encodedText"
   # All props and computed are available for href formatting
   # default props include "encodedText", "encodedMD" and the task object itself 
