@@ -24,6 +24,13 @@ lists:
     ignore: true
     name: DONE
 settings:
+  journalType: Single File
+  journalPath: /notes
+  taskPrefix: '###'
+  maxLines: 10
+  addNewCardsToTop: false
+  newCardSyntax: MARKDOWN
+  doneList: DONE
   appendNewCardsTo: log.md
   cards:
     colors:
@@ -32,9 +39,5 @@ settings:
       - color: green
         filter: list=NOTE
   filteredLists: []
-  journalPath: /notes
-  maxLines: 10
-  newCardSyntax: MARKDOWN
-  taskPrefix: '###'
 sync:
   useImdoneioForPriority: false
