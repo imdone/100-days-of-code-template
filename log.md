@@ -21,7 +21,7 @@ links: # These are links that will be added to cards.  Notice how href is using 
   # All props and computed are available for string interpolation
   # default props include "encodedText", "encodedMD" and the task object itself 
   - pack: fab # Can be fab or fas https://fontawesome.com/how-to-use/on-the-web/referencing-icons/basic-use
-    icon: fa-twitter # The font-awesome icon to use 
+    icon: twitter # The font-awesome icon to use 
     title: Tweet this card # What the user see's when they hover over the icon
     href: https://twitter.com/intent/tweet?text=${encodedText}%0ATweeted%20with%20@imdoneio
 ---
