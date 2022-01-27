@@ -14,7 +14,7 @@ template: | # This is the template for new cards
   :100: Days of code, Day ${daysIn}: ${today}
   :rocket: **Progress:**  your progress here
   :thought_balloon: **Thoughts:**  your thoughts here
-  :link: **Links to work:**  your links here
+  :link: **Links:**  your links here
   #100DaysOfCode
   <!-- created: ${timestamp} -->
 ---
