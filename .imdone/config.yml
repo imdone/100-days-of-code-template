@@ -64,7 +64,7 @@ settings:
     addCheckBoxTasks: false
     doneList: DONE
     taskPrefix: "###"
-    tagPrefix: "#"
+    tagPrefix: "+"
     metaSep: ":"
     maxLines: 10
     addNewCardsToTop: true
