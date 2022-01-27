@@ -24,20 +24,48 @@ lists:
     ignore: true
     name: DONE
 settings:
+  openIn: code
+  customOpenIn: ""
+  editorTheme: blackboard
   journalType: Single File
   journalPath: /notes
-  taskPrefix: '###'
-  maxLines: 10
-  addNewCardsToTop: false
-  newCardSyntax: MARKDOWN
-  doneList: DONE
   appendNewCardsTo: log.md
+  newCardSyntax: MARKDOWN
+  replaceSpacesWith: "-"
+  plugins:
+    devMode: false
+  filteredLists: []
+  journalTemplate: null
+  theme: dark
+  addNewCardsToTop: false
+  views:
+    - id: default
+      filter: ""
   cards:
     colors:
       - color: red
         filter: list=DOING
       - color: green
         filter: list=NOTE
-  filteredLists: []
-sync:
-  useImdoneioForPriority: false
+    template: |
+
+      <!--
+      created:${(new Date()).toISOString()}
+      -->
+    links:
+      - href: >-
+          https://twitter.com/intent/tweet?text=${encodedText}%0ATweeted%20with%20@imdoneio
+        icon: twitter
+        pack: fab
+        title: Tweet this card
+    trackChanges: false
+    metaNewLine: false
+    addCompletedMeta: false
+    addCheckBoxTasks: false
+    doneList: DONE
+    taskPrefix: "###"
+    tagPrefix: "#"
+    metaSep: ":"
+    maxLines: 10
+    addNewCardsToTop: true
+    defaultList: NOTE
